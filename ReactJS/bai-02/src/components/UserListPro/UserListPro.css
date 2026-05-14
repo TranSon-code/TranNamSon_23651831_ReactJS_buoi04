@@ -1,0 +1,34 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hiệu ứng xoay cho Loading */
+.loading-spinner {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #007bff;
+    padding: 20px;
+}
+
+/* Style cho thông báo lỗi */
+.error-box {
+    background-color: #fff2f2;
+    color: #d8000c;
+    border: 1px solid #ffbaba;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.user-item {
+    background: white;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s;
+}
+
+.user-item:hover {
+    background: #f8f9fa;
+}
